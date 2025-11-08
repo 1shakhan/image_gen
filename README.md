@@ -2,15 +2,25 @@
 
 Mobile application for creating image with prompting.
 
-## Getting Started
+## To start the app you need
+- install dependencies by 
+```bash
+flutter pub get
+```
 
-This project is a starting point for a Flutter application.
+- check available devices via
+```bash 
+flutter doctor
+```
 
-A few resources to get you started if this is your first Flutter project:
+- to start on ios you need install system dependencies and start it
+- documentation [here](https://docs.flutter.dev/platform-integration/ios/setup) 
+```bash
+cd ios && pod install && cd .. && flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- to start on macOS you need install system dependencies and start it
+- documentation [here](https://docs.flutter.dev/platform-integration/macos/setup) 
+```bash
+cd macos && pod install && cd .. && flutter run
+```
